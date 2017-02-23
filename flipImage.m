@@ -6,7 +6,7 @@ function plot = flipImage(img,direction)
 % Flip Image 
 flippedimg = flipdim(img,direction);
 
-subplot(2,2,1),imshow(img);
+subplot(2,2,1),imshow(img)
 title('Subplot 1: Original image');
-subplot(2,2,2),imshow(flippedimg);
+subplot(2,2,2),imshow(flippedimg)
 title('Subplot 2: Flipped image');
